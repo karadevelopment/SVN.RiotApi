@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SVN.RiotApi" GeneratedClassName="UrlSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProfileIcon" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ddragon.leagueoflegends.com/cdn/{0}/img/profileicon/{1}.png</Value>
+    </Setting>
+    <Setting Name="ChampionSplash" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{0}_0.jpg</Value>
+    </Setting>
+    <Setting Name="ChampionSquare" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ddragon.leagueoflegends.com/cdn/{0}/img/champion/{1}.png</Value>
+    </Setting>
+    <Setting Name="Spell" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ddragon.leagueoflegends.com/cdn/{0}/img/spell/{1}.png</Value>
+    </Setting>
+    <Setting Name="Item" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ddragon.leagueoflegends.com/cdn/{0}/img/item/{1}.png</Value>
+    </Setting>
+    <Setting Name="Mastery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ddragon.leagueoflegends.com/cdn/{0}/img/mastery/{1}.png</Value>
+    </Setting>
+    <Setting Name="Rune" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://ddragon.leagueoflegends.com/cdn/{0}/img/rune/{1}.png</Value>
+    </Setting>
+    <Setting Name="SummonerByAccount" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://{1}.api.riotgames.com/lol/summoner/v4/summoners/by-account/{2}?api_key={0}</Value>
+    </Setting>
+    <Setting Name="SummonerByName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://{1}.api.riotgames.com/lol/summoner/v4/summoners/by-name/{2}?api_key={0}</Value>
+    </Setting>
+    <Setting Name="Matchlist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://{1}.api.riotgames.com/lol/match/v4/matchlists/by-account/{2}?api_key={0}</Value>
+    </Setting>
+    <Setting Name="Match" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://{1}.api.riotgames.com/lol/match/v4/matches/{2}?api_key={0}</Value>
+    </Setting>
+    <Setting Name="CurrentGame" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://{1}.api.riotgames.com/lol/spectator/v4/active-games/by-summoner/{2}?api_key={0}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
